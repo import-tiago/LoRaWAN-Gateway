@@ -71,8 +71,8 @@ This repository is dedicated to documenting insights and key information on buil
 - **Use Case:** Used in LoRaWAN gateways to provide **multi-channel** LoRa reception and transmission capabilities.
 - **Features:**
   - Uses the **SX1302** as the baseband processor
-  - Includes **SX1250** as an RF front-end
-  - Includes **SX1262** as an LoRa Transceiver ( enabling the Listen Before Talk (LBT) feature for enhanced communication efficiency and reduced interference)
+  - Uses the **SX1250** as an RF front-end
+  - Uses the **SX1262** as an LoRa Transceiver (enabling the Listen Before Talk (LBT) feature for enhanced communication efficiency and reduced interference)
   - Supports **LoRaWAN class A/B/C devices**
   - [Datasheet](datasheets/WM1302.pdf)
 
