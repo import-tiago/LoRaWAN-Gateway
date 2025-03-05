@@ -82,3 +82,8 @@ This repository is dedicated to documenting insights and key information on buil
 [Official website](https://heltec.org)
 
 ![](assets/Heltec_LoRa_v2.png)
+
+## Network Server
+
+My gateway is online and successfully connected to TTN. Interestingly, I now have the only available LoRaWAN gateway in São Bernardo do Campo, SP - Brazil.
+![](assets/TTN_Mapper.png)
