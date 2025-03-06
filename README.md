@@ -2,7 +2,9 @@
 
 This repository aims to document insights and relevant information about the LoRaWAN ecosystem, with a particular focus on the construction of a LoRaWAN-compatible gateway. To achieve this, the three main building blocks of a LoRaWAN network will be addressed: the *end-node*, the *gateway*, and the *network server*. The primary goal is to develop a gateway capable of receiving data from an end-node and forwarding it to The Things Network (TTN). This approach seeks to provide a comprehensive understanding of the concepts and variables involved in LoRaWAN networks, with an emphasis on the development of the gateway as the central element of interest and study.
 
-![](assets/NetworkComponents.png)
+<p align="center">
+  <img src="assets/NetworkComponents.png" />
+</p>
 
 
 <details>
