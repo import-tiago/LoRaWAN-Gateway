@@ -67,7 +67,7 @@ This repository is dedicated to documenting insights and key information on buil
 ### 4. WM1302 (LoRaWAN Gateway Module)
 ![](assets/WM1302_preview.png)
 - **Role:** Full Gateway Module (Based on SX1302)
-- **Description:** The **WM1302** is not a standalone chip but a complete **LoRaWAN gateway module** that integrates the **SX1302** baseband chip along with the **SX1250** and **SX1250** as RF front-end.
+- **Description:** The **WM1302** is not a standalone chip but a complete **LoRaWAN gateway module**.
 - **Use Case:** Used in LoRaWAN gateways to provide **multi-channel** LoRa reception and transmission capabilities.
 - **Features:**
   - Uses the **SX1302** as the baseband processor
