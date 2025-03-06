@@ -78,9 +78,13 @@ This repository is dedicated to documenting insights and key information on buil
 
 ### Heltec LoRa v2 Board (915MHz version) <a href="https://heltec.org/project/wifi-lora-32v2/">🔗</a>
 [Official website](https://heltec.org)
+
 [Schematic](node/hardware/Schematic%20-%20Heltec%20LoRa%20v2%20(915MHz%20version).pdf)
 
 ![](assets/Heltec_LoRa_v2.png)
+
+## Node Architecture
+![](assets/node_diagram.png)
 
 ### SX1276 (LoRa Transceiver)  
 ![](assets/SX1276.png)  
