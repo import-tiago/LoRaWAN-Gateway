@@ -2,7 +2,12 @@
 
 This repository is dedicated to documenting insights and key information on building a LoRaWAN gateway. As a result, constructing at least one End Node will also be necessary. The primary goal is to develop a gateway capable of connecting to The Things Network (TTN) and receiving data from the End Node. This setup will facilitate a deeper understanding of LoRaWAN network concepts and variables.
 
-## Gateway Hardware
+## Network Components
+![](assets/NetworkComponents.png)
+
+
+<details>
+<summary>Gateway</summary>
 
 ### WM1302 LoRaWAN Gateway Module (915MHz version) <a href="https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-US915-SKY66420-p-5455.html">🔗</a>
 [Official website](https://www.seeedstudio.com)
@@ -21,7 +26,6 @@ This repository is dedicated to documenting insights and key information on buil
 
 ### Final Assembly
 ![](assets/RPi_SenseCAP.png)
-
 
 ## WM1302 Architecture
 ![](assets/WM1302_diagram.png)
@@ -61,7 +65,7 @@ This repository is dedicated to documenting insights and key information on buil
   - Lower power consumption
   - Supports **multiple frequency bands**
   - [Datasheet](datasheets/SX1250.pdf)
- 
+
 ### 4. WM1302 (LoRaWAN Gateway Module)
 ![](assets/WM1302_preview.png)
 - **Role:** Full Gateway Module (Based on SX1302)
@@ -74,7 +78,10 @@ This repository is dedicated to documenting insights and key information on buil
   - Supports **LoRaWAN class A/B/C devices**
   - [Datasheet](datasheets/WM1302.pdf)
 
-## End Node Hardware
+</details>
+
+<details>
+<summary>End-Node</summary>
 
 ### Heltec LoRa v2 Board (915MHz version) <a href="https://heltec.org/project/wifi-lora-32v2/">🔗</a>
 [Official website](https://heltec.org)
@@ -99,9 +106,14 @@ This repository is dedicated to documenting insights and key information on buil
   - Low power consumption for battery-operated devices  
   - [Datasheet](datasheets/SX1276.pdf)
 
+</details>
 
-## Network Server
-
+<details>
+<summary>Network Server</summary>
+<br>
 My gateway is online and successfully connected to TTN. Interestingly, I now have the only available LoRaWAN gateway in São Bernardo do Campo, SP - Brazil.
-
+<br>
+  
 ![](assets/TTN_Mapper.png)
+
+</details>
