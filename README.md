@@ -4,7 +4,7 @@ This repository is dedicated to documenting insights and key information on buil
 
 ## Gateway Hardware
 
-### WM1302 LoRaWAN Gateway Module US915 (SPI) <a href="https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-US915-SKY66420-p-5455.html">🔗</a>
+### WM1302 LoRaWAN Gateway Module (915MHz version) <a href="https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-US915-SKY66420-p-5455.html">🔗</a>
 [Official website](https://www.seeedstudio.com)
 
 ![](assets/WM1302.png)
