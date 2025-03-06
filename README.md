@@ -76,10 +76,25 @@ This repository is dedicated to documenting insights and key information on buil
 
 ## End Node Hardware
 
-### Heltec LoRa v2 Board <a href="https://heltec.org/project/wifi-lora-32v2/">🔗</a>
+### Heltec LoRa v2 Board (915MHz version) <a href="https://heltec.org/project/wifi-lora-32v2/">🔗</a>
 [Official website](https://heltec.org)
+[Schematic](node/hardware/Schematic%20-%20Heltec%20LoRa%20v2%20(915MHz%20version).pdf)
 
 ![](assets/Heltec_LoRa_v2.png)
+
+### SX1276 (LoRa Transceiver)  
+![](assets/SX1276.png)  
+- **Role:** LoRa End Device Chip (Transceiver)  
+- **Description:** The **SX1276** is a LoRa transceiver chip widely used in **LoRa end devices (nodes)** for long-range wireless communication. It supports both **LoRa and FSK/OOK** modulation schemes, making it a versatile choice for IoT applications.  
+- **Use Case:** Suitable for battery-powered IoT sensors, industrial monitoring, and remote control applications that communicate with a LoRa gateway.  
+- **Features:**  
+  - Supports **LoRa, FSK, and OOK modulation**  
+  - **Long-range communication** with high sensitivity (-137 dBm)  
+  - **Configurable spreading factors (SF6-SF12)** for adaptive data rates  
+  - **Wide frequency range** (137 MHz – 1020 MHz) covering multiple regions  
+  - Low power consumption for battery-operated devices  
+  - [Datasheet](datasheets/SX1276.pdf)
+
 
 ## Network Server
 
